@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "viedeogames",
+  "info": {
+    "singularName": "viedeogame",
+    "pluralName": "viedeogames",
+    "displayName": "Videogame",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 150,
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 5
+    },
+    "lunch": {
+      "type": "date"
+    }
+  }
+}
